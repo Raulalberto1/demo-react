@@ -17,6 +17,7 @@ You must deploy the backend Calculator Rest API before this Demo React App
 1. **Clone the repository:**
 
    ```sh
+
    git clone https://github.com/Raulalberto1/demo-react.git
    cd your-project
 
@@ -44,8 +45,9 @@ You must deploy the backend Calculator Rest API before this Demo React App
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-repo/your-project.git
-   cd your-project/frontend
+   
+   git clone https://github.com/Raulalberto1/demo-react.git
+   cd your-project
 
 2. **Create a docker-compose.yml file:**
 
