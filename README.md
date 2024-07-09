@@ -100,3 +100,61 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `npm run eject`
 
+## Calculator App
+
+### Functional tests for APP Calculator:
+
+The first step is to access on the login screen
+
+Available users:
+ User 1
+ user1
+ password1
+ balance:100.0
+ Status Active
+
+ User 2
+ user2
+ password2
+ balance:50.0
+ Status Active
+
+ User 3
+ user3
+ password3
+ balance:200.0
+ Status Inactive
+
+ User 4
+ user4
+ password4
+ balance:0.0
+ Status Active
+
+If a correct user is entered, it will log in and send you to the calculator screen, where appropriate it will indicate invalid credentials, blocked or not found.
+
+## Calculator Screen
+
+The view upon loading, obtains the available operations, as well as their transaction cost and the user's current balance.
+If you do not have a balance, it will not allow any operation.
+- Operation Sum:
+The calculator waits for the entry of 2 numbers when you click Add, if you have a balance it allows the operation, in your case it indicates that you do not have available credit, then it updates the balance.
+
+- Subtraction Operation
+The calculator waits for the entry of 2 numbers, if it has a balance it allows the operation.
+
+- Multiplication operation
+The calculator waits for the entry of 2 numbers, if it has a balance it allows the operation.
+
+- division operation
+The calculator waits for the entry of 2 numbers, if the divisor is zero it indicates that the operation cannot be performed, if it has a balance it allows the operation.
+
+- Operation Sqrt
+The calculator waits for the entry of 1 number, if it is less than zero it does not allow the operation, if it has a balance it allows the operation.
+
+- Operation Radom
+The calculator does not need to enter numbers, if it has a balance it allows the operation.
+
+- Record Grid
+This table shows all operations successfully performed by the user, sorts them descendingly, can be sorted by fields, and allows deletion of records.
+There is also pagination, showing by default 10 records, and a search field.
