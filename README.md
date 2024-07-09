@@ -107,25 +107,26 @@ It correctly bundles React in production mode and optimizes the build for the be
 The first step is to access on the login screen
 
 Available users:
- User 1
+
+ - User 1
  user1
  password1
  balance:100.0
  Status Active
 
- User 2
+ - User 2
  user2
  password2
  balance:50.0
  Status Active
 
- User 3
+ - User 3
  user3
  password3
  balance:200.0
  Status Inactive
 
- User 4
+ - User 4
  user4
  password4
  balance:0.0
