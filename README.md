@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisites
 
-You must deploy the backend Calculator Rest API before this Demo React App
+ *Note: You must deploy the backend Calculator Rest API before this Demo React App*
 
 - Node.js (v18 or later)
 - Yarn
@@ -45,7 +45,7 @@ You must deploy the backend Calculator Rest API before this Demo React App
 1. **Clone the repository:**
 
    ```sh
-   
+
    git clone https://github.com/Raulalberto1/demo-react.git
    cd your-project
 
