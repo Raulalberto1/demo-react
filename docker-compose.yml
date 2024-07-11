@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - REACT_APP_OPERATIONS_URL=http://200.58.105.126:8080
+      - REACT_APP_OPERATIONS_URL=http://localhost:8080
     networks:
       - mynetwork
 
